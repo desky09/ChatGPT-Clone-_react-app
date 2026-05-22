@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# ChatGPT Clone (Gemini UI)
+
+This is a CRA (Create React App) based Chat UI that calls the **Google Gemini** `generateContent` endpoint.
+
+## Gemini API setup
+
+1. Create a file named **`.env`** in the project root.
+2. Add your API key:
+
+```bash
+REACT_APP_GEMINI_API_KEY=YOUR_KEY_HERE
+```
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
@@ -30,6 +44,11 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
+
+## Notes
+
+- The API key is read on the client at build time via `process.env.REACT_APP_GEMINI_API_KEY`.
+
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
