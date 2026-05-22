@@ -1,3 +1,4 @@
+
 # ChatGPT Clone (Gemini UI)
 
 This is a CRA (Create React App) based Chat UI that calls the **Google Gemini** `generateContent` endpoint.
@@ -87,3 +88,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# ChatGPT-Clone-_react-app
+>>>>>>> 574817dcc70acb423aa6823b50d34a45bd381123
